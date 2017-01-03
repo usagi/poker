@@ -17,7 +17,7 @@
 #include <sstream>
 #include <type_traits>
 
-namespace usagi::experimental::oh2016
+namespace usagi::poker
 {
   using namespace std;
   

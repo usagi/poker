@@ -2,7 +2,7 @@
 
 #include "cards_type.hxx"
 
-namespace usagi::experimental::oh2016
+namespace usagi::poker
 {
   using namespace std;
   

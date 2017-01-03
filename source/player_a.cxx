@@ -2,7 +2,7 @@
 
 #include <boost/config.hpp>
 
-namespace usagi::experimental::oh2016
+namespace usagi::poker
 {
   using namespace std;
   
@@ -10,7 +10,7 @@ namespace usagi::experimental::oh2016
   {
       auto get_name() -> std::string override
       {
-        return "Player-A";
+        return "Player-A/Nothing-man";
       }
       
       auto pay_ante( const size_t, const size_t minimum, const size_t ) -> size_t override
@@ -27,4 +27,3 @@ namespace usagi::experimental::oh2016
   extern "C" BOOST_SYMBOL_EXPORT player_a player;
   player_a player;
 }
-

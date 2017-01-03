@@ -49,3 +49,4 @@ add_dependencies( draw_poker external_cmdline )
 target_link_libraries( draw_poker ${Boost_LIBRARIES} )
 
 add_library( player_a SHARED source/player_a.cxx )
+add_library( player_b SHARED source/player_b.cxx )

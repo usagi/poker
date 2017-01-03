@@ -5,7 +5,7 @@
 #include <stdexcept>
 #include <sstream>
 
-namespace usagi::experimental::oh2016
+namespace usagi::poker
 {
   using namespace std;
   

@@ -5,7 +5,7 @@
 
 #include <string>
 
-namespace usagi::experimental::oh2016
+namespace usagi::poker
 {
   using namespace std;
   
@@ -78,7 +78,7 @@ auto main
 , const char* const* const arguments
 ) -> int
 {
-  using namespace usagi::experimental::oh2016;
+  using namespace usagi::poker;
   
   const auto& parser = parse_options ( count_of_arguments, arguments );
   
