@@ -64,14 +64,14 @@
 
 #### プレイヤープラグインのAPIの概要
 
-プレイヤープラグインは `source/player_a.cxx` や `source/player_b.cxx` を参考に、たった3つのメンバー関数をオーバーライド実装するだけであなたのポーカープレイヤーAIを定義できます。
+プレイヤープラグインは [`source/player_a.cxx`](source/player_a.cxx) や [`source/player_b.cxx`](source/player_b.cxx) を参考に、たった3つのメンバー関数をオーバーライド実装するだけであなたのポーカープレイヤーAIを定義できます。
 
 - `player_type` プラグインの基底型です。 public 継承してあなたの新しいAIのクラスを実装します。
 - `player_type::get_name` 継承したあなたの新しいAIのクラスでオーバーライドして実装し、あなたのAIの名乗る名前を定義します。
 - `player_type::pay_ante` 継承したあなたの新しいAIのクラスでオーバーライドして実装し、あなたのAIがラウンド毎にアンティ（参加費としての掛け金）をどのように支払うか定義します。
 - `player_type::discard_cards` 継承したあなたの新しいAIのクラスでオーバーライドして実装し、あなたのAIがターンの始めにドローしたカード群を確認し、どのカードを捨てる（交換する）か定義します。
 
-詳細は `source/player_type.hxx` ファイルを開いて下さい。メンバー関数毎に引数の説明など比較的丁寧に doxy 形式でドキュメントが書き込まれています。
+詳細は [`source/player_type.hxx`](source/player_type.cxx) ファイルを開いて下さい。メンバー関数毎に引数の説明など比較的丁寧に doxy 形式でドキュメントが書き込まれています。
 
 ## License
 
